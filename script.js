@@ -10,6 +10,7 @@ function displayingCount() {
     if(counter === 0) {
         clrBtn.style.display = 'none';
         dcrBtn.disabled = true;
+        errorMsg.innerText = `Error: Cannot go below 0`;
     }
     count.textContent = counter;
 }
