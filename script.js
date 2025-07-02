@@ -9,6 +9,7 @@ dcrBtn.disabled = false;
 function displayingCount() {
     if(counter === 0) {
         clrBtn.style.display = 'none';
+        dcrBtn.disabled = true;
     }
     count.textContent = counter;
 }
